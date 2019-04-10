@@ -43,9 +43,10 @@ void print_path(ll cur_src,set<ll> s)
 	{
 		set<ll> temp=s;
 		temp.erase(i);
-		if(mn>g[{cur_src,temp}])
+		ll d=c[cur_src][i] + g[{i,temp}];
+		if(mn>d)
 		{
-			mn=g[{cur_src,temp}];
+			mn=d;
 			nxt=i;
 		}
 	}
