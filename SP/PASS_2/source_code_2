@@ -1,0 +1,5 @@
+- START - 500
+- MOVER AREG ='1'
+- MOVEM AREG ='5'
+- STOP - -
+- END - -
