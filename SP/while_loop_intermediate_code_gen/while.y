@@ -97,3 +97,8 @@ int main()
 void yyerror()
 {
 }
+
+/* lex while.l 
+yacc -d while.y 
+gcc lex.yy.c y.tab.c -ll -lm
+*/
